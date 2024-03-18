@@ -1,11 +1,26 @@
 package com.example.healthapp.data
 
+import kotlinx.coroutines.flow.Flow
+
 interface VegRepository{
-    suspend fun getVeg(): List<Veg>
-}
+    /**
+     * Retrieve all the vegtables from the the given data source.
+     */
+    fun getAllvegStream(): Flow<List<Veg>>
 
-class VegRepository(
+    /**
+     * Retrieve a vegtable from the given data source that matches with the [id].
+     */
+    fun getvegStream(id: Int): Flow<Veg?>
 
-) : VegRepository {
+    /**
+     * Insert vegtable in the data source
+     */
+    suspend fun insertveg(veg: Veg)
+
+    /**
+     * Delete vegtable from the data source
+     */
+    suspend fun delete(veg: Veg)
 
 }
