@@ -7,7 +7,9 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
+import kotlinx.coroutines.launch
 
 
 @Composable
@@ -15,7 +17,12 @@ fun HomeScreen(
     viewModel: HealthViewModel,
     modifier: Modifier = Modifier
 ){
-    VegButton(onAddVeg = { })
+    val coroutineScope = rememberCoroutineScope()
+    VegButton(onAddVeg = {
+        coroutineScope.launch {
+            viewModel.
+        }
+    })
 }
 
 

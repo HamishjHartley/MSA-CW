@@ -8,6 +8,6 @@ interface AppContainer{
 
 class AppDataContainer(private val context: Context) : AppContainer {
     override val vegRepository: VegRepository by lazy {
-        OfflineVegRepository(VegDatabase.getDatabase(context).itemDao())
+        OfflineVegRepository(VegDatabase.getDatabase(context).vegDao())
     }
 }
