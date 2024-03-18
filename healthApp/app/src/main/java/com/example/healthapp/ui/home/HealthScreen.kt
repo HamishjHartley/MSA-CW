@@ -20,7 +20,7 @@ fun HomeScreen(
     val coroutineScope = rememberCoroutineScope()
     VegButton(onAddVeg = {
         coroutineScope.launch {
-            viewModel.
+            viewModel.addVeg()
         }
     })
 }
