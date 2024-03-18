@@ -1,8 +1,11 @@
 package com.example.healthapp.data
 
 import android.content.Context
+import androidx.room.Database
+import androidx.room.Room
+import androidx.room.RoomDatabase
 
-@Database(entities = [Veg:class], version = 1, exportSchema = false)
+@Database(version=1, entities = [Veg::class])
 abstract class VegDatabase : RoomDatabase() {
 
     abstract fun vegDao(): VegDao

@@ -3,7 +3,7 @@ package com.example.healthapp.data
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity(tableName = "Vegtables")
+@Entity(tableName = "vegtables")
 data class Veg(
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0,

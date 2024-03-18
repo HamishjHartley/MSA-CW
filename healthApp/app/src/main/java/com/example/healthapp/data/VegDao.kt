@@ -1,16 +1,23 @@
 package com.example.healthapp.data
 
+import androidx.room.Dao
+import androidx.room.Delete
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
+import kotlinx.coroutines.flow.Flow
+
 @Dao
 interface VegDao {
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun inster(veg : Veg)
+    suspend fun insert(veg : Veg)
 
     @Delete
     suspend fun delete(veg: Veg)
 
-    @Query("SELECT * from veg WHERE id = :=id")
+    @Query("SELECT * from vegtables WHERE id = :id")
     fun getVeg(id: Int): Flow<Veg>
 
-    @Query("SELECT * from veg ORDER BY name ASC")
-    fun getAllItems)_: Flow<List<Veg>>
+    @Query("SELECT * from vegtables ORDER BY name ASC")
+    fun getAllItems(): Flow<List<Veg>>
 }

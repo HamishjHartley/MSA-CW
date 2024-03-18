@@ -1,11 +1,28 @@
 package com.example.healthapp.data
 
-class OfflineVegRepository(private val vegDao) : VegRepository {
-    override fun getAllVegStream(): Flow<List<Veg>> = vegDao.getAllVeg()
+import kotlinx.coroutines.flow.Flow
 
-    override fun getVegStream(id: Int): Flow<Veg?> = vegDao.getVeg(id)
+class OfflineVegRepository(private val vegDao: VegDao) : VegRepository {
+//    override fun getAllVegStream(): Flow<List<Veg>> = vegDao.getAllVeg()
+//
+//    override fun getVegStream(id: Int): Flow<Veg?> = vegDao.getVeg(id)
 
-    override suspend fun insertVeg(veg: Veg) = vegDao.insert(veg)
+//    suspend fun insertVeg(veg: Veg) = vegDao.insert(veg)
+//
+//    suspend fun deleteVeg(veg: Veg) = vegDao.insert(veg)
+    override fun getAllvegStream(): Flow<List<Veg>> {
+        TODO("Not yet implemented")
+    }
 
-    override suspend fun deleteVeg(veg: Veg) = vegDao.insert(veg)
+    override fun getvegStream(id: Int): Flow<Veg?> {
+        TODO("Not yet implemented")
+    }
+
+    override suspend fun insertveg(veg: Veg) {
+        TODO("Not yet implemented")
+    }
+
+    override suspend fun delete(veg: Veg) {
+        TODO("Not yet implemented")
+    }
 }
