@@ -6,17 +6,17 @@ interface VegRepository{
     /**
      * Retrieve all the vegtables from the the given data source.
      */
-    fun getAllvegStream(): Flow<List<Veg>>
+    fun getAllVegStream(): Flow<List<Veg>>
 
     /**
      * Retrieve a vegtable from the given data source that matches with the [id].
      */
-    fun getvegStream(id: Int): Flow<Veg?>
+    fun getVegStream(id: Int): Flow<Veg?>
 
     /**
      * Insert vegtable in the data source
      */
-    suspend fun insertveg(veg: Veg)
+    suspend fun insertVeg(veg: Veg)
 
     /**
      * Delete vegtable from the data source

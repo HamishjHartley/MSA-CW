@@ -19,5 +19,5 @@ interface VegDao {
     fun getVeg(id: Int): Flow<Veg>
 
     @Query("SELECT * from vegtables ORDER BY name ASC")
-    fun getAllItems(): Flow<List<Veg>>
+    fun getAllVeg(): Flow<List<Veg>>
 }

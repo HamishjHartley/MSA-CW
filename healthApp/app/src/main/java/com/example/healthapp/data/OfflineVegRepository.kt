@@ -7,22 +7,18 @@ class OfflineVegRepository(private val vegDao: VegDao) : VegRepository {
 //
 //    override fun getVegStream(id: Int): Flow<Veg?> = vegDao.getVeg(id)
 
-//    suspend fun insertVeg(veg: Veg) = vegDao.insert(veg)
+    //    suspend fun insertVeg(veg: Veg) = vegDao.insert(veg)
 //
-//    suspend fun deleteVeg(veg: Veg) = vegDao.insert(veg)
-    override fun getAllvegStream(): Flow<List<Veg>> {
-        TODO("Not yet implemented")
-    }
+//    suspend fun deleteVeg(veg: Veg) = vegDao.delete(veg)
+    override fun getAllVegStream(): Flow<List<Veg>> = vegDao.getAllVeg()
 
-    override fun getvegStream(id: Int): Flow<Veg?> {
-        TODO("Not yet implemented")
-    }
 
-    override suspend fun insertveg(veg: Veg) {
-        TODO("Not yet implemented")
-    }
+    override fun getVegStream(id: Int): Flow<Veg?> = vegDao.getVeg(id)
 
-    override suspend fun delete(veg: Veg) {
-        TODO("Not yet implemented")
-    }
+
+    override suspend fun insertVeg(veg: Veg) = vegDao.insert(veg)
+
+
+    override suspend fun delete(veg: Veg) = vegDao.delete(veg)
+
 }

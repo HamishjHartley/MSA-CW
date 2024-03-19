@@ -20,7 +20,7 @@ class HealthViewModel(private val vegRepository: VegRepository) : ViewModel() {
     }
 
     suspend fun addVeg() {
-        vegRepository.insertveg(vegUiState.vegDetails.toVeg())
+        vegRepository.insertVeg(vegUiState.vegDetails.toVeg())
     }
 }
 
