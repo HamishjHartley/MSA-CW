@@ -22,6 +22,8 @@ class HealthViewModel(private val vegRepository: VegRepository) : ViewModel() {
     suspend fun addVeg() {
         vegRepository.insertVeg(vegUiState.vegDetails.toVeg())
     }
+
+    
 }
 
 //Represents Ui State for a portion of fruit/veg.
@@ -42,3 +44,4 @@ fun VegDetails.toVeg(): Veg = Veg(
     name = name,
     quantity =quantity
 )
+
