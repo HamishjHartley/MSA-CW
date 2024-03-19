@@ -9,12 +9,14 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
+import androidx.lifecycle.viewmodel.compose.viewModel
+import com.example.healthapp.ui.AppViewModelProvider
 import kotlinx.coroutines.launch
 
 
 @Composable
 fun HomeScreen(
-    viewModel: HealthViewModel,
+    viewModel: HealthViewModel = viewModel(factory = AppViewModelProvider.Factory),
     modifier: Modifier = Modifier
 ){
     val coroutineScope = rememberCoroutineScope()

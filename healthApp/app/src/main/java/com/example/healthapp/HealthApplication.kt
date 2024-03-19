@@ -1,4 +1,4 @@
-package com.example.healthapp.ui
+package com.example.healthapp
 
 import android.app.Application
 import com.example.healthapp.data.AppContainer
