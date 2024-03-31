@@ -1,0 +1,46 @@
+com.example.healthapp-material-release-0 C:\Users\theha\.gradle\caches\transforms-3\14ebf9f5800fb8a6798dcce263d5ae2e\transformed\material-release\res
+com.example.healthapp-ui-tooling-release-1 C:\Users\theha\.gradle\caches\transforms-3\2037da82aecbcab4065fcb3191ee4e1d\transformed\ui-tooling-release\res
+com.example.healthapp-lifecycle-process-2.7.0-2 C:\Users\theha\.gradle\caches\transforms-3\225a18096fe00aab7a38f4aadc2048b5\transformed\lifecycle-process-2.7.0\res
+com.example.healthapp-lifecycle-viewmodel-ktx-2.7.0-3 C:\Users\theha\.gradle\caches\transforms-3\22754b82b198f67c28421594ed4fcc90\transformed\lifecycle-viewmodel-ktx-2.7.0\res
+com.example.healthapp-annotation-experimental-1.3.0-4 C:\Users\theha\.gradle\caches\transforms-3\2d79a7d8258d399605b0e2b1a70dda97\transformed\annotation-experimental-1.3.0\res
+com.example.healthapp-lifecycle-viewmodel-savedstate-2.7.0-5 C:\Users\theha\.gradle\caches\transforms-3\3e6e218a615ba06f5a42761f8a76cf21\transformed\lifecycle-viewmodel-savedstate-2.7.0\res
+com.example.healthapp-lifecycle-runtime-2.7.0-6 C:\Users\theha\.gradle\caches\transforms-3\4412aa4ca1d61f8ce9b3bd249bdd300f\transformed\lifecycle-runtime-2.7.0\res
+com.example.healthapp-savedstate-1.2.1-7 C:\Users\theha\.gradle\caches\transforms-3\48402149516c86f3a69d09c562ad199e\transformed\savedstate-1.2.1\res
+com.example.healthapp-material-ripple-release-8 C:\Users\theha\.gradle\caches\transforms-3\484c1620b0dba9e37bf86fca7fa4ec9c\transformed\material-ripple-release\res
+com.example.healthapp-ui-unit-release-9 C:\Users\theha\.gradle\caches\transforms-3\4c3e3243e0943a50455abb36e473f432\transformed\ui-unit-release\res
+com.example.healthapp-core-ktx-1.12.0-10 C:\Users\theha\.gradle\caches\transforms-3\55dd157fafeb7f5bc9e40fa067b8fef8\transformed\core-ktx-1.12.0\res
+com.example.healthapp-ui-util-release-11 C:\Users\theha\.gradle\caches\transforms-3\55ed56726f61ec909ca696edd2dfe5f8\transformed\ui-util-release\res
+com.example.healthapp-foundation-release-12 C:\Users\theha\.gradle\caches\transforms-3\5f2a318c40b068adf69e38526cc05918\transformed\foundation-release\res
+com.example.healthapp-ui-release-13 C:\Users\theha\.gradle\caches\transforms-3\635c61dacb256d7ae48831eb8abca182\transformed\ui-release\res
+com.example.healthapp-material-icons-core-release-14 C:\Users\theha\.gradle\caches\transforms-3\6a0650ea7433e015a1f591933c175009\transformed\material-icons-core-release\res
+com.example.healthapp-emoji2-1.4.0-15 C:\Users\theha\.gradle\caches\transforms-3\740a0bac5ee3a0e18dc25f54b7830ede\transformed\emoji2-1.4.0\res
+com.example.healthapp-lifecycle-viewmodel-2.7.0-16 C:\Users\theha\.gradle\caches\transforms-3\873ea6b5959e119b37e08ef799536dda\transformed\lifecycle-viewmodel-2.7.0\res
+com.example.healthapp-ui-text-release-17 C:\Users\theha\.gradle\caches\transforms-3\87e1c6eb2f47698e71b99e9a8874ca1d\transformed\ui-text-release\res
+com.example.healthapp-ui-geometry-release-18 C:\Users\theha\.gradle\caches\transforms-3\8fe481c8938f2067079288a13e80a920\transformed\ui-geometry-release\res
+com.example.healthapp-core-runtime-2.2.0-19 C:\Users\theha\.gradle\caches\transforms-3\907f57a640694d106269c941064d9d28\transformed\core-runtime-2.2.0\res
+com.example.healthapp-animation-core-release-20 C:\Users\theha\.gradle\caches\transforms-3\97a077e48453792877a363afa6ce82d2\transformed\animation-core-release\res
+com.example.healthapp-runtime-saveable-release-21 C:\Users\theha\.gradle\caches\transforms-3\97e9725e3c9e24d7f2575972c8953bbd\transformed\runtime-saveable-release\res
+com.example.healthapp-startup-runtime-1.1.1-22 C:\Users\theha\.gradle\caches\transforms-3\9e775b7f886e60918e437fbfcb35b528\transformed\startup-runtime-1.1.1\res
+com.example.healthapp-ui-tooling-preview-release-23 C:\Users\theha\.gradle\caches\transforms-3\a2db37300e2114ec17fa0842a9e7f1e3\transformed\ui-tooling-preview-release\res
+com.example.healthapp-profileinstaller-1.3.0-24 C:\Users\theha\.gradle\caches\transforms-3\a334af6288b171f74edf031c5cccb3dc\transformed\profileinstaller-1.3.0\res
+com.example.healthapp-lifecycle-livedata-core-2.7.0-25 C:\Users\theha\.gradle\caches\transforms-3\b7bf9c37f05c2e748224cc4d969ff0fb\transformed\lifecycle-livedata-core-2.7.0\res
+com.example.healthapp-savedstate-ktx-1.2.1-26 C:\Users\theha\.gradle\caches\transforms-3\bee1fd072b1a94b8b8bccfc7d3417981\transformed\savedstate-ktx-1.2.1\res
+com.example.healthapp-activity-compose-1.8.2-27 C:\Users\theha\.gradle\caches\transforms-3\bfd2446bf49f2393607113aa9c4d254f\transformed\activity-compose-1.8.2\res
+com.example.healthapp-ui-tooling-data-release-28 C:\Users\theha\.gradle\caches\transforms-3\c90ad73f8a6fb20780f855ebe8293c94\transformed\ui-tooling-data-release\res
+com.example.healthapp-core-1.12.0-29 C:\Users\theha\.gradle\caches\transforms-3\cbc9fc90c45dc44ccf2ca837e2c26226\transformed\core-1.12.0\res
+com.example.healthapp-activity-ktx-1.8.2-30 C:\Users\theha\.gradle\caches\transforms-3\cec91eb0d90991ac740722dd989d068a\transformed\activity-ktx-1.8.2\res
+com.example.healthapp-customview-poolingcontainer-1.0.0-31 C:\Users\theha\.gradle\caches\transforms-3\d124e39552a37db78e624c1e04c1053b\transformed\customview-poolingcontainer-1.0.0\res
+com.example.healthapp-ui-test-manifest-1.5.4-32 C:\Users\theha\.gradle\caches\transforms-3\d8153f5dec5ed4e445b597ea804c623d\transformed\ui-test-manifest-1.5.4\res
+com.example.healthapp-foundation-layout-release-33 C:\Users\theha\.gradle\caches\transforms-3\db1b3d8fd8cb718bfbc82258893836a1\transformed\foundation-layout-release\res
+com.example.healthapp-animation-release-34 C:\Users\theha\.gradle\caches\transforms-3\e106e006b4b413ef733023fe8d1a447f\transformed\animation-release\res
+com.example.healthapp-material3-1.1.2-35 C:\Users\theha\.gradle\caches\transforms-3\e2876ab58fe9c270835de488bedc4b40\transformed\material3-1.1.2\res
+com.example.healthapp-lifecycle-runtime-ktx-2.7.0-36 C:\Users\theha\.gradle\caches\transforms-3\e9b84626d5d9e74beef173341bb25bc9\transformed\lifecycle-runtime-ktx-2.7.0\res
+com.example.healthapp-ui-graphics-release-37 C:\Users\theha\.gradle\caches\transforms-3\f1e94751ccdde40204c59e5c5b542fce\transformed\ui-graphics-release\res
+com.example.healthapp-runtime-release-38 C:\Users\theha\.gradle\caches\transforms-3\f1ed77ce606e4d0dae15b964c25f5f20\transformed\runtime-release\res
+com.example.healthapp-activity-1.8.2-39 C:\Users\theha\.gradle\caches\transforms-3\fdab0ea5bd03d2f6bc9c2d6111f8148e\transformed\activity-1.8.2\res
+com.example.healthapp-resValues-40 C:\Users\theha\OneDrive\Documents\GitHub\MSA-CW\Phase 2\app\build\generated\res\resValues\debug
+com.example.healthapp-packageDebugResources-41 C:\Users\theha\OneDrive\Documents\GitHub\MSA-CW\Phase 2\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.healthapp-packageDebugResources-42 C:\Users\theha\OneDrive\Documents\GitHub\MSA-CW\Phase 2\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.healthapp-merged_res-43 C:\Users\theha\OneDrive\Documents\GitHub\MSA-CW\Phase 2\app\build\intermediates\merged_res\debug
+com.example.healthapp-debug-44 C:\Users\theha\OneDrive\Documents\GitHub\MSA-CW\Phase 2\app\src\debug\res
+com.example.healthapp-main-45 C:\Users\theha\OneDrive\Documents\GitHub\MSA-CW\Phase 2\app\src\main\res
