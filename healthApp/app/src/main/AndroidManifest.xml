@@ -26,5 +26,6 @@
         </activity>
         <receiver android:name=".CounterNotificationReceiver" />
     </application>
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>
 
 </manifest>

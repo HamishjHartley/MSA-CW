@@ -1,13 +1,20 @@
 package com.example.healthapp.ui.home
 
 import android.annotation.SuppressLint
+import android.content.Context
+import android.hardware.Sensor
+import android.hardware.SensorManager
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.healthapp.ui.AppViewModelProvider
@@ -19,6 +26,7 @@ fun HomeScreen(
     viewModel: HealthViewModel = viewModel(factory = AppViewModelProvider.Factory),
     modifier: Modifier = Modifier
 ){
+
     val coroutineScope = rememberCoroutineScope()
     VegButton(onAddVeg = {
         coroutineScope.launch {
