@@ -24,7 +24,7 @@ import com.example.healthapp.ui.theme.HealthAppTheme
 
 class MainActivity<ActivityMainBinding> : ComponentActivity() {
 
-    lateinit var binding: ActivityMainBinding
+    var binding: ActivityMainBinding = TODO() //Fix this
     val CHANNEL_ID = "channelID"
     val CHANNEL_NAME = "channelName"
     val NOTIF_ID = 0
